@@ -1,92 +1,202 @@
-# lbaw2231
+# lbaw2231 - WhatsNew
+
+
+WhatsNew is a collaborative news website that enables the user to submit articles and stay connected with other publishers around the world.<br>
+Unlike the equivalent websites, our product enables an easy and unified access to relevant articles from various topics, promoting an healthy space for debates and sharing information.
+
+
+### 1. Installation
+
+Link to the release with the final version of the source code in the group's Git repository.
+Include the full Docker command to start the image available at the group's GitLab Container Registry using the production database.
+
+
+### 2. Usage
+
+URL to the product: http://lbaw222331.lbaw.fe.up.pt
+
+
+#### 2.1. Administration Credentials
+
+Administration URL:
+
+| Username |Password |
+| -------- | -------- |
+| admin@gmail.com     | admin     |
+
+
+### 3. Application Help
+
+In the side bar, there is an option named "Help". There is an accordion type display with 
+the FAQ.
 
 
 
-## Getting started
+### 4. Input Validation
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
-## Add your files
+Describe how input data was validated, and provide examples to scenarios using both client-side and server-side validation.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
 
-```
-cd existing_repo
-git remote add origin https://git.fe.up.pt/lbaw/lbaw2223/lbaw2231.git
-git branch -M main
-git push -uf origin main
-```
+### 5. Check Accessibility and Usability
 
-## Integrate with your tools
+Accessibility: https://git.fe.up.pt/lbaw/lbaw2223/lbaw2231/-/blob/main/acessibilidade.pdf
+Usability: https://git.fe.up.pt/lbaw/lbaw2223/lbaw2231/-/blob/main/usabilidade.pdf
 
-- [ ] [Set up project integrations](https://git.fe.up.pt/lbaw/lbaw2223/lbaw2231/-/settings/integrations)
 
-## Collaborate with your team
+### 6. HTML & CSS Validation
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+HTML: https://validator.w3.org/nu/
+CSS: https://jigsaw.w3.org/css-validator/
 
-## Test and Deploy
+Here are some example for testing HTML:
+![](https://i.imgur.com/bQ8cBgP.png)
 
-Use the built-in continuous integration in GitLab.
+Here is the link:
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fgit.fe.up.pt%2Flbaw%2Flbaw2223%2Flbaw2231
 
-***
+Here are some examples for testing CSS:
 
-# Editing this README
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgit.fe.up.pt%2Flbaw%2Flbaw2223%2Flbaw2231&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+Here is the link:
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+![](https://i.imgur.com/EMweCMr.png)
 
-## Name
-Choose a self-explaining name for your project.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+### 7. Revisions to the Project
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+None were made.
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+### 8. Web Resources Specification
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+Updated OpenAPI specification in YAML format to describe the final product's web resources.
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+Link to the a9_openapi.yaml file in the group's repository.
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+openapi: 3.0.0
 
-## License
-For open source projects, say how it is licensed.
+...
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+
+
+### 9. Implementation Details
+
+#### 9.1. Libraries Used
+
+Include reference to all the libraries and frameworks used in the product.
+Include library name and reference, description of the use, and link to the example where it's used in the product.
+
+
+#### 9.2 User Stories
+
+This subsection should include all high and medium priority user stories, sorted by order of implementation. Implementation should be sequential according to the order identified below.
+If there are new user stories, also include them in this table.
+The owner of the user story should have the name in bold.
+This table should be updated when a user story is completed and another one started.
+
+
+
+#### Guest
+
+| Identifier | Name                      | Priority | Description                                                                                                           |Team Members     | State | 
+| ---------- | ------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------- | --- | ------------ |
+| US01       | Sign-up                   | High     | As a Guest, I want to be able to register on the site, so that I can authenticate myself.                             | Inês Gaspar, Maria Gonçalves, Pedro Barbeira, **Pedro Ferreira**  |   100%           |
+| US02       | Sign-in                   | High     | As a Guest, I want to be able to authenticate myself on the site, so that I have access to privileged features.       | **Inês Gaspar**, Maria Gonçalves, Pedro Barbeira, Pedro Ferreira    |   100%           |
+| US03       | Sign-out                  | High     | As a Guest, I want to sign out my already logged in account, so that other people can’t impersonate me.               | Inês Gaspar, **Maria Gonçalves**, Pedro Barbeira, Pedro Ferreira    |    100%          |
+| US04       | See Main Page             | High     | As a Guest, I want to access the main page, so that I can see the news/comments on the site.                          |Inês Gaspar, Maria Gonçalves, **Pedro Barbeira**, Pedro Ferreira     | 100%             |
+| US05       | Search                    | High     | As a Guest, I want to search for keywords in the site, so that I can see quickly the news/comments I’m interested in. | **Pedro Barbeira**    |  100%            |
+| US06       | View details              | High     | As a Publisher, I want to view article/comment details so that I can know more about them (author, date, votes, etc). | **Inês Gaspar**, Maria Gonçalves    |  100%            |
+| US07       | View Categories           | Medium   | As a Guest, I want to see all the categories, so that I can explore articles from a specific group.                   | Maria Gonçalves, **Pedro Ferreira**    |    100%          |
+| US08       | View Topics               | Medium   | As a Guest, I want to see the existent topics, so that I can explore the articles related to a specific topic.        |Maria Gonçalves, Pedro Barbeira, **Pedro Ferreira**     |  100%          |
+| US09       | See Contacts Section      | Medium   | As a Guest, I want to access the contacts section, so that I can get in touch with the creators of the site.          |Inês Gaspar, **Maria Gonçalves**, Pedro Barbeira, Pedro Ferreira     |    100%          |
+| US10       | Search with Filters       | Medium   | As a Guest, I want to apply filters to my searches, so that I can see what interests me the most more quickly.        | **Inês Gaspar**, Pedro Barbeira     |    100%          |
+| US11       | See About Page            | Medium   | As a Guest, I want to access the about page, so that I can get to know the creators of the site and their purpose.    | Maria Gonçalves, **Pedro Ferreira**    |     100%         |
+| US12       | Help Menu                 | Medium   | As a Guest, I want a help menu so that I can find support to my questions.                                            | Pedro Barbeira, **Pedro Ferreira**    |     100%         |
+| US13       | FAQ                       | Medium   | As a Guest, I want a Frequently Asked Questions page so that I can easily find answers I might need.                  | **Pedro Barbeira**, Pedro Ferreira    |    100%          |
+| US14       | Contextual Error Messages | Medium   | As a Guest, I want contextual error messages so that I’m alerted when I try to do something the wrong way.            | **Inês Gaspar**, Pedro Barbeira    |     75%         |
+
+<p align= "center">
+ <b><i>Table2- Guest's User Stories</i></b>
+</p>
+
+
+#### Publisher
+
+| Identifier | Name                   | Priority | Description                                                                                                                        | Team Members    | Score    |
+| ---------- | ---------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
+| US15       | News feed              | High     | As a Publisher, I want to see my News feed populated so that I can easily stay updated.                                            |Inês Gaspar, **Pedro Barbeira**     |  100%   |
+| US16       | Reputation vote        | High     | As a Publisher, I want to up/downvote articles/comments so that I can provide feedback to the authors.                             |**Inês Gaspar**, Pedro Barbeira     | 100%    |
+| US17       | Leave comment          | High     | As a Publisher, I want to leave comments on articles so that I can express my opinion.                                             |Inês Gaspar, **Pedro Barbeira**     | 100%    |
+| US18       | Delete account         | High     | As a Publisher, I want to delete my account so that my information gets cleared from the website.                                  |**Maria Gonçalves**, Pedro Ferreira     | 100%    |
+| US19       | Notifications          | High     | As a Publisher, I want to get notified when a new article gets published so that I can quickly know about it.                      | Inês Gaspar, **Pedro Barbeira**  |  100%   |
+| US20       | Manage tags            | High     | As a Publisher, I want to select/unselect news tags so that I can manage what kind of news appear on my feed.                      | Maria Gonçalves, **Pedro Ferreira**     | 100%    |
+| US21       | Manage news            | High     | As a Publisher, I want to publish, remove and edit a piece of news, so that I can maintain a high level of quality on the website. |Inês Gaspar, **Pedro Barbeira**     | 100%    |
+| US22       | Link tags              | High     | As a Publisher, I want to link tags and topics so that Publishers can access what might interest them the most.                    |  **Inês Gaspar**, Pedro Barbeira   |  100%   |
+| US23       | View/Edit profile      | High     | As a Publisher, I want to see and/or edit my user profile, so that I can update my account info.                                   | Inês Gaspar, Maria Gonçalves, Pedro Barbeira, **Pedro Ferreira**    | 100%    |
+| US24       | Upload profile picture | Medium   | As a Publisher, I want to be able to upload a profile picture so that I can customize my profile.                                  |**Maria Gonçalves**, Pedro Ferreira     | 100%    |
+| US25       | View other profiles    | Medium   | As a Publisher I want to see other Publishers’ profiles so that I can see their reputation and publications.                       |**Maria Gonçalves**, Pedro Ferreira     | 100%    |
+| US26       | Block Publisher        | Medium   | As a Publisher, I want to block other Publishers so that they can’t see my activity.                                               |Maria Gonçalves, **Pedro Ferreira**     |  50%   |
+| US27       | Send friend request    | Medium   | As a Publisher, I want to be friend with other Publishers so that I can follow their activity throughout the page.                 |**Maria Gonçalves**, Pedro Barbeira     |  50%   |
+| US32       | Topic proposal         | Low      | As a Publisher, I want to propose topics so that I can improve the quality and diversity of the website.                           |**Maria Gonçalves**, Pedro Ferreira     | 100%    |
+
+<p align= "center">
+ <b><i>Table 2 - Publisher's User Stories</i></b>
+</p>
+
+#### Administrator
+| Identifier | Name                   | Priority | Description                                                                                                                                                                 | Team Members    | State    |
+| ---------- | ---------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
+| US33       | Ban user               | High     | As an Admin, I want to ban a user, so that I can remove permanently someone who is not respecting the website rules.                                                        |**Maria Gonçalves**, Pedro Ferreira     |100%     |
+| US34       | Remove article/comment | High     | As an Admin, I want to remove an article or a comment so that I can delete content that is against the website policies.                                                    | **Inês Gaspar**, Maria Gonçalves, Pedro Barbeira, Pedro Ferreira    |  0%   |
+| US35       | Manage topic proposal  | High     | As an Admin, I want to manage a topic proposal made by a publisher, so that I can prevent them from creating inconvenient topics or an already existent one.                |Inês Gaspar, Maria Gonçalves, **Pedro Barbeira**, Pedro Ferreira     | 100%    |
+| US36       | Check veracity         | High     | As an Admin, I want to check the veracity of an article, so that I make sure there’s no fake news or misinformation on the website.                                         |Inês Gaspar, Maria Gonçalves, Pedro Barbeira, **Pedro Ferreira**     |  0%   |
+
+
+
+<p align= "center">
+ <b><i>Table 4- Administrator's User Stories</i></b>
+</p>
+
+
+
+
+
+## A10: Presentation
+
+This artifact corresponds to the presentation of the product.
+
+
+### 1. Product presentation
+
+WhatsNew is a news website which allows user all over the world send and share credible and relevant information.
+This is the ideal space for any publisher who wants to posts his / her articles, create a new topics and link categories to make the articles more relevant and also comment the news of another publisher.
+URL to the product: http://lbaw2231.lbaw.fe.up.pt
+Slides used during the presentation should be added, as a PDF file, to the group's repository and linked to here.
+
+
+### 2. Video presentation
+
+![](https://i.imgur.com/kkW5MFy.png)
+
+https://youtu.be/twPbxkfwwgk
+
+
+Revision history
+
+* 28/11/2022 - 2/1/2022 -> added and developed the features of high and medium priority.
+
+
+GROUP2231, 03/01/2023
+
+* Group member 1: [Inês Sá Pereira Estêvão Gaspar](https://github.com/ines-08), up202007210@edu.fe.up.pt (Editor)
+* Group member 2: [Maria Sofia Brandão Porto Carvalho Gonçalves](https://github.com/MSofiaGoncalves), up202006927@edu.fe.up.pt (Editor)
+* Group member 3: [Pedro Fardilha Barbeira](https://github.com/pedrobarbeira), up201303693@edu.fe.up.pt (Editor)
+* Group member 4: [Pedro Pereira Ferreira](https://github.com/Pedro-PFerreira/), up202004986@edu.fe.up.pt (Editor)
