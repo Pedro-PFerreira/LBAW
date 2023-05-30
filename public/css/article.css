@@ -1,0 +1,455 @@
+#article-piece{
+  margin: 3em;
+  padding: 1em;
+  padding-top:0.2em;
+  word-wrap: break-word;
+  background-color: rgb(234, 234, 234);
+  border-radius: 10px;
+  width:42em;
+}
+  
+.userArticles{
+
+  margin: 3em;
+  margin-left: 25%;
+  padding: 1em;
+  padding-top:1em;
+  word-wrap: break-word;
+  background-color: rgb(234, 234, 234);
+  border-radius: 10px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  word-break: break-word;
+  width: 80%;
+}
+
+
+#article-piece label div{
+  padding: 1em;
+  padding-top: 2px;
+}
+
+#article-category{
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: #015782;
+}
+
+#article-info-container{
+  margin-left:22.5%;
+}
+
+#container-info-data{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas: "title title title"
+                       "img img publisher"
+                       "img img date"
+                       "body body body"
+                       "details details details";
+  
+}
+
+#title-article {
+  grid-area: title;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top:1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: #015782;
+}
+
+
+#publisher-name {
+  margin-top: -2em;
+  font-size: 1.5em;
+  grid-area: publisher;
+  text-align: right;
+}
+
+#publisher-name-id{
+  color: #022030;
+} 
+
+#data-article {
+  grid-area: date;
+  text-align: right;
+  margin-top: -2em;
+  margin-bottom: 1em;
+}
+
+#data-article-id{
+  color: #ababab;
+}
+
+#details-container{
+  grid-area: details;
+  margin-top: -2em;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  height:3em;
+  width:100%;
+}
+
+.stats-container{
+  display:flex;
+  flex-direction: row;
+  margin-top: 1em;
+  margin-right: -5%;
+  margin-left: 40%;
+}
+
+#likes-icon {  
+  margin-right:0.3em;
+}
+
+#dislikes-icon {
+  margin-right:0.3em;
+  margin-left: -1em;
+}
+
+#comment-icon {
+  margin-right:0.3em;
+  margin-left: -1em;
+}
+
+#favorites-icon{
+  margin-right:0.3em;
+  margin-left: -1em;
+}
+
+#body-article {
+  margin-top: -2em;
+  grid-area: body;
+  text-align: justify;
+}
+
+
+#article-title-header a, #new-title-header a, #title-user-article{
+  font-size: 1.1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: #003b59;
+}
+
+#top-article-date, #user-article-date {
+  font-size: 0.8em;
+  color: rgb(146, 146, 146);
+  text-align:right;
+}
+
+#top-article-description, #user-article-description {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.article-details-icon{
+  font-size: 1.5em;
+  --color: #015782;
+  color: #0874a9;
+}
+
+#article-manage-container-off{
+  background-color: rgb(234, 234, 234);
+}
+
+.article-manage-container{
+  border-radius: 10px;
+  margin-top: 0.5em;
+  margin-left: 1em;
+  text-align:center;
+  background-color: #0679b2;
+}
+
+#article-delete-container{
+  background-color: red;
+}
+
+#article-edit-button{
+  color: white;
+  opacity: 90%;
+  text-decoration: none;
+  overflow-wrap: normal;
+  font-size: large;
+}
+
+#article-delete-button{
+  color: white;
+  opacity: 90%;
+  text-decoration: none;
+  overflow-wrap: normal;
+  font-size: large;
+}
+
+#article-delete-button:hover{
+  cursor:pointer;
+}
+
+.comment {
+  margin: 3em;
+  padding: 1em;
+  padding-top:0.2em;
+  word-wrap: break-word;
+}
+
+#comment-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "username nvotes nvotes"
+                       "data data data"
+                       "content-comment content-comment content-comment";
+}
+
+#comment-publisher {
+  grid-area: username;
+}
+
+#comment-data {
+  grid-area: data;
+}
+
+#comment-content {
+  grid-area: content-comment;
+}
+
+#comment-votes {
+  grid-area: nvotes;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto;
+  grid-template-areas: "icon-likes number-likes icon-dislikes number-dislikes edit-comment remove-comment";
+}
+
+#likes-icon-comment{
+  grid-area: icon-likes;
+  margin-left: 2.5em;
+}
+
+#num-likes-comment {
+  grid-area: number-likes;
+  margin-left: -0.5em;
+  margin-right:0.5em;
+}
+
+#dislikes-icon-comment {
+  grid-area: icon-dislikes;
+}
+
+#num-dislikes-comment {
+  grid-area: number-dislikes;
+  margin-left: -0.5em;
+}
+
+#comment-edit-button {
+  grid-area: edit-comment;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+#comment-remove-button {
+  grid-area: remove-comment;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.comment-edit-container{
+  display: block;
+  margin-left: 2em;
+  background-color: #0679b2;
+  border-radius: 10px;
+  width: 7.5em;
+  text-align: center;
+}
+
+#comment-remove-container {
+  grid-area: remove-comment;
+}
+
+button#new-comment-button, #comment-remove-button, #button-submit-article, #button-submit-article {
+  background-color: #0679b2;
+  border-radius: 10px;
+  text-align: center;
+  border-style: solid;
+  border-color: #0679b2;
+  color: white;
+  margin-left: 1em;
+  width: 10em;
+}
+
+#new-comment-button-container {
+  grid-area: button-new-comment;
+}
+
+#new-comment-box {
+  grid-area: box-new-comment;
+  margin-left: 3em;
+  margin-bottom: 1em;
+  border-color: rgb(234, 234, 234);
+  background-color: rgb(234, 234, 234);
+  border-radius: 5px;
+}
+
+#new-comment-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-template-areas: "box-new-comment button-new-comment";
+}
+
+.comment-edit-container-off{
+  background-color: white;
+}
+
+#num-likes{
+  padding:0;
+}
+
+#first-categories{
+  margin-top: -3em;
+}
+
+.categories-container{
+  display: flex;
+  flex-direction:row;
+  margin-left: 10%;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+
+.categories-container a{
+  text-decoration: none;
+}
+
+.category-button{
+  background-color: #0679b2;
+  padding-left:1em;
+  padding-right:1em;
+  padding-top:0.5em;
+  padding-bottom: 0.5em;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-size: larger;
+  color:white;
+  height:10em;
+}
+
+.category-button:hover{
+  background-color: #015782;
+  color: white;
+  font-weight: bold;
+}
+
+.category-button:click{
+  background-color: #0679b2;
+  color: white;
+}
+
+.categories-ref{
+  background-color: red;
+}
+
+
+.about-us{
+  --padding-left: 50%;
+  --margin-left: 10%;
+
+}
+h3#title-new-comment {
+  margin-top: 1em;
+  text-align: center;
+  color: #0679b2;
+}
+
+#comment-data-id {
+  color: #ababab;
+}
+
+#sinopsis-news {
+  margin: 3em;
+  padding: 1em;
+  padding-top:0.2em;
+  word-wrap: break-word;
+  background-color: rgb(234, 234, 234);
+  border-radius: 10px;
+  width:42em;
+}
+
+#title-news{
+  grid-area: title;
+  font-size: 2em;
+  text-align: center;
+  margin-top:1em;
+  margin-bottom: 0.3em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: #015782;
+}
+
+#article-category-news{
+  border-color: #015782;
+  background-color: #015782;
+  border-radius: 5px;;
+  color: white;
+  margin-bottom: 0.5em;
+}
+
+#word-title, #word-description, #word-body{
+  margin-top: 0.7em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+  color: #015782;
+}
+
+#title, #articledescription, #body {
+  margin-left: 0.5em;
+  background-color: rgb(234, 234, 234);
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(234, 234, 234);
+  width: 40em; height: 3em;
+}
+
+#articledescription {
+  background-color: rgb(234, 234, 234);
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(234, 234, 234);
+  width: 40em; height: 5em;
+}
+
+#body {
+  background-color: rgb(234, 234, 234);
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(234, 234, 234);
+  width: 40em; height: 15em;
+}
+
+#button-submit-article {
+  background-color: #0679b2;
+  border-radius: 10px;
+  text-align: center;
+  border-style: solid;
+  border-color: #0679b2;
+  color: white;
+  margin-left: 1em;
+  margin-top: 1em;
+  width: 10em;
+}

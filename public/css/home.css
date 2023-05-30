@@ -1,0 +1,28 @@
+#breaking-header-dot, #breaking-header-title{
+    color: rgb(144, 0, 0);
+}
+
+.stars {
+    color: rgb(144, 0, 0);
+    animation-iteration-count: infinite;
+}
+
+.star-1 {
+    --margin-top: 15%; 
+    --margin-left: 10%;
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+}
+
+@keyframes twinkle-1 {
+    50% {
+    opacity: 0.5;
+    }
+}
+
+#News-by-category-title{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #015782;
+}
